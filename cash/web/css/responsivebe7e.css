@@ -1,0 +1,1816 @@
+/* 
+
+CASH CONVERTERS ESPAÑA S.L. 2017
+This file was originally created by Cash Converters development team.
+No public difusion allowed. Code rights reserved.
+Contact us ayuda@cash-converters.es
+http://www.cashconverters.es
+
+*/
+
+/************************ RESPONSIVE ************************/
+
+/* X-Large desktop */
+@media (min-width: 991px) {
+    .main-img-login{
+        bottom: 0;
+    }
+}
+
+/* Large desktop */
+@media (max-width: 1199px) { 
+
+    .home-ve .box-header:before {
+        background-size: 600px;
+        background-position: calc(50% + 230px) 40px;
+    }
+
+    .home-ve .box-cat .content .box p strong {
+        font-size: 20px;
+    }
+    
+    .home-ve .box-cat .content.first .box p strong {
+        font-size: 22px;
+    }
+
+    .home-ve .box-funciona img {
+        max-width: 65px;
+        max-height: 55px;
+    }
+    
+    .home-ve .box-cat.others .content .box {
+        padding: 0px 7px;
+    }
+    
+    .home-ve .box-cat.others .content .box p strong {
+        font-size: 17px;
+    }
+    
+    .home-ve .box-vender .row > div:first-child .content {
+        padding-right: 170px;
+    }
+    
+    .home-ve .box-vender .row > div:last-child .content {
+        padding-left: 170px;
+    }
+    
+    .home-ve .box-vender .content h3 {
+        font-size: 30px;
+    }
+    
+    .home-ve .box-vender .row > div:first-child {
+        background-position: calc(100% + 160px) 140px;
+    }
+    
+    .home-ve .box-vender .row > div:last-child {
+        background-position: -120px 140px;
+    }
+    
+    .products .device:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .precios-tasacion .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .precios-tasacion .content,
+    .not-categorized .precios-tasacion .content {
+        height: 100%;
+        padding-bottom: 100px;
+    }
+
+    .precios-tasacion .content .btn-border {
+        position: absolute !important;
+        bottom: 25px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: calc(100% - 50px);
+    }
+    
+    .page-repartidores .box-mobile h4 {
+        margin-top: 0px;
+    }
+    
+    .page-repartidores .box-mobile .image {
+        margin-top: 25px;
+    }
+    
+    .precios-tasacion .row {
+        padding: 0px 100px;
+    }
+    
+    .precios-tasacion.active-promo .row > div:before {
+        display: none;   
+    }
+    
+    .precios-tasacion .row > div:before {
+        left: -120px;
+    }
+    
+    .precios-tasacion .row > div:last-child:before {
+        right: -118px;
+    }
+    
+    .page-repartidores .box-caja h4 strong {
+        font-size: 26px;
+    }
+        
+    .landing-login .box-top .content-right {
+        padding: 25px;
+    }
+    
+    .home-ve .box-header .slide-content.promo .image {
+        background-position: 140% bottom !important;
+    }
+    
+    .page-ean .ul-ean {
+        padding: 0px;
+    }
+    
+    .active-promo.precios-tasacion .bb-promo.promo-circle{
+        top: -104px;   
+    }
+    
+    .home-ve .box-cat .content span img.icon-promo {
+        right: 15px;   
+    }
+    
+    .product-details .row-input.works {
+        margin-bottom: 20px;
+    }
+
+    .home-ve .box-header .slide-content.consolas img {
+        margin-left: 0px;
+    }
+
+    .home-ve .box-header .slide-content.consolas .image {
+        background-position: center 40px !important;
+    }
+    
+    .home-ve .box-header .slide-content.consolas .info {
+        left: 220px;
+    }
+    
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 991px) { 
+    
+    .home-ve .box-header:before {
+        background-size: 580px;
+        background-position: calc(50% + 334px) 54px;
+    }
+    
+    .home-ve .box-cat .content.first .box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+ 
+    .home-ve .box-cat .content.first .box span {
+        height: 120px;
+    }
+    
+    .home-ve .box-cat .content span img {
+        margin: 0px;
+    }
+    
+    .home-ve .box-cat.others .box {
+        width: 20%;
+    }
+    
+    .home-ve .box-cat .content .box p {
+        padding: 10px 10px 30px 0px;
+    }
+    
+    .home-ve .box-cat.others .content .box p strong {
+        font-size: 16px;
+    }
+    
+    .home-ve .box-cat.others .content span {
+        height: 100px;
+    }
+    
+    .home-ve .box-funciona {
+        padding: 40px 0px 25px;
+    }
+    
+    .home-ve .box-funciona p {
+        min-height: 80px;
+    }
+    
+    .home-ve .box-vender .content {
+        padding: 132px 20px 62px !important;
+    }
+    
+    .home-ve .box-vender .row > div:first-child {
+        background-size: 94px;
+        background-position: calc(100% - 32px) 45px;
+    }
+    
+    .home-ve .box-vender .row > div:last-child {
+        background-size: 91px;
+        background-position: 32px 36px;
+    }
+    
+    .footer .row-footer > .col:first-child {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .precios-tasacion .row {
+        padding: 0px 40px;
+    }
+    
+    .product-details .box-content .row > div {
+        padding: 0px 8px;
+    }
+
+    .precios-tasacion .row > div:last-child:before {
+        width: 180px;
+        right: -140px;
+    }
+    
+    .precios-tasacion .content h4 {
+        font-size: 24px;
+    }
+    
+    .precios-tasacion .content p.price,
+    .precios-tasacion .content p span.price-promotion {
+        font-size: 42px !important;
+    }
+    .active-promo.precios-tasacion .content p.price,
+    .active-promo.precios-tasacion .content p span.price-promotion {
+        font-size: 42px !important;
+        line-height: 40px;
+    }
+    
+    /* .precios-tasacion.active-promo .row > div:first-child .content h4 { */
+    .precios-tasacion.active-promo .row > div .content h4 {
+        /* margin-top: 20px; */
+        margin-top: 0;
+    }
+
+    .not-categorized .box-categories .content .box-icon p {
+        padding: 0 30px;
+    }
+
+    .not-categorized .precios-tasacion .row > div .content p {
+        padding: 0!important;
+    }
+    
+    .page-repartidores .box-mobile .image {
+        margin-top: 58px;
+    }
+    
+    .page-repartidores .box-caja h4 strong {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    
+    .page-repartidores .box-caja .box-bottom {
+        padding: 0px 0px 40px;
+        text-align: center;
+    }
+    
+    .page-repartidores .box-steps .row > div {
+        padding: 0px 15px !important;
+    }
+    
+    .page-repartidores .box-steps p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .page-repartidores .full .box-caja h4 {
+        padding: 15px 20px 20px !important
+    }
+    
+    .page-repartidores .full .box-caja h4 strong {
+        display: block;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    .page-repartidores .full .box-caja .box-bottom {
+        position: static;
+        padding: 0px 20px 25px;
+        text-align: right;
+    }
+    
+    .page-pedido .box-table .tasacion {
+        font-size: 20px;
+    }
+
+    .page-content.bg-prepara.page-pedido .box-content-resumen .tasacion {
+        min-width: 125px;
+    }
+    
+    .landing-login .box-top .content-left {
+        padding-bottom: 20px;
+    }
+    
+    .landing-login .box-top .content-left .logo {
+        margin-bottom: 60px;
+    }
+    
+    .landing-login .box-top .content-left br {
+        display: none;
+    }
+    
+    .landing-login .box-top .content-left p {
+        padding-right: 50px;
+    }
+
+    .landing-login .box-resume .row > div:nth-child(1) p,
+    .landing-login .box-resume .row > div:nth-child(2) p {
+        min-height: 120px;
+    }
+    
+    .landing-login .box-bottom h3 {
+        padding: 0px 110px;
+    }
+    
+    .landing-login .box-top .content-left .image {
+        width: 420px;
+        margin-top: 50px;
+    }
+    
+    .landing-login .box-top .row > div:last-child {
+        padding-left: 0px;
+    }
+    
+    .landing-login .box-top .content-right {
+        margin-top: 35px;
+    }
+    
+    .home-ve .box-header .carousel .slide-content {
+        height: 340px;
+    }
+    
+    .home-ve .box-header .slide-content:after {
+        height: 120px;
+    }
+    
+    .home-content .box-header .carousel .item .container {
+        padding: 0px 15px;
+    }
+    
+    .home-ve .box-header .content-header {
+        padding: 0px;
+    }
+    
+    .home-ve .box-header .content-header h1 {
+        margin-bottom: 10px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+    .home-ve .box-header .content-header h1 span {
+        font-size: 30px;
+    }
+    
+    .home-ve .box-header .slide-content .image {
+        background-size: 540px !important;
+        background-position: 90% 60% !important;
+    }
+    
+    .home-ve .box-header .slide-content.promo img {
+        width: 310px;
+        margin-top: 20px;
+    }
+    
+    .home-ve .box-header .slide-content.promo img:last-child {
+        width: 236px;
+    }
+    
+    .home-ve .box-header .slide-content.promo .image {
+        background-size: 410px !important;
+        background-position: 104% 75% !important;
+    }
+    
+    .precios-tasacion.active-promo h2 {
+        margin-bottom: 160px !important;
+    }
+    
+    .active-promo.precios-tasacion .bb-promo.promo-circle{
+        position: static;
+        margin-top: -130px;
+        /* width: 180px; */
+    }
+    
+    .precios-tasacion .content p span.price-promotion:before {
+        right: -60px;
+        top: -100px;
+        height: 120px;
+        background-size: 50px;
+        -webkit-transform: rotate(00deg);
+        transform: rotate(0deg);
+
+        display: none;
+    }
+    
+    .specs-accordeon .panel-group .panel-body .panel-content {
+        padding: 0px;
+    }
+    
+    .specs-accordeon .panel-group .panel-heading .panel-title a {
+        padding: 25px 0px;
+    }
+    
+    .home-ve .box-header .slide-content.consolas img {
+        width: 337px;
+        margin-top: 20px;
+    }
+    
+    .home-ve .box-header .slide-content.consolas .image {
+        background-size: 510px !important;
+        background-position: 80px 57px !important;
+    }
+    
+    .home-ve .box-header .slide-content.consolas .info {
+        left: 181px;
+        bottom: 9px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    
+    .precios-tasacion.active-promo .content p.asteric {
+        margin-top: 0px;
+    }
+    
+    .home-ve .box-cat .content span img.icon-promo {
+        right: 0px;
+    }
+    
+    .active-promo.precios-tasacion .sinpromosize{
+        font-size: 32px!important;
+        position: relative;
+        bottom: 0!important;
+        right: 0!important;
+    }
+    
+    /* .active-promo.precios-tasacion .content p span.price-promotion {
+        font-size: 56px;
+        line-height: 60px;
+    } */
+
+}
+
+@media (min-width: 768px) { 
+    
+    .active-promo.precios-tasacion .content p.price sup {
+        bottom: 20px;
+        font-size: 14px;
+    }
+    .footer .row-footer ul {
+        display: block !important;
+        height: auto !important;
+    }
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .precios-tasacion .content p.price,
+    .precios-tasacion .content span.price {
+        line-height: 20px;
+    
+    }
+    .active-promo.precios-tasacion .content p.price sup {
+        bottom: 20px;
+        font-size: 14px;
+    }
+
+    .left-side{
+        min-height: auto;
+        text-align: center;
+        padding: 40px 20px;
+        background-position: center center;
+
+    }
+
+    .header > .row > div {
+        width: auto;
+        padding: 0px;
+    }
+    
+    .header > .row > div:last-child {
+        float: right;
+    }
+    
+    .header .logo {
+        margin: 20px 0px 20px 30px;
+        position: static;
+    }
+    
+    .header .navbar-right {
+        border: none;
+        background: #4178E2;
+        padding: 13px 15px 13px 20px;
+        bottom:0;
+    }
+
+    .header .navbar-right .dLogin {
+        padding-bottom: 12px;
+    }
+    
+    .header .navbar-right .fa {
+        color: #fff;
+    }
+    
+    .header .navbar-right .fa-power-off {
+        margin: 0px 5px;
+    }
+    
+    .navbar-default .navbar-nav > li:last-child {
+        background: transparent;
+    }
+    
+    .navbar-default .navbar-nav > li {
+        padding: 0px !important;
+    }
+    
+    .home-ve .box-header .content-header {
+        padding: 25px 0px 50px;
+    }
+    
+    .home-ve .box-header .content-header span,
+    .home-ve .box-header .form-header h3 {
+        display: none !important;
+    }
+    
+    .home-ve .box-header .content-header h1 {
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+        margin: 0px 0px 8px;
+    }
+    
+    .home-ve .box-header .content-header h1 strong:first-child {
+        display: inline-block;
+        font-size: 26px !important;
+        line-height: 24px;
+        text-transform: none;
+        margin: 0px;
+    }
+    
+    .home-ve .box-header .content-header p {
+        font-size: 20px;
+        text-transform: none;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 160px;
+    }
+    
+    .home-ve .box-header .content-header p strong {
+        font-weight: 500;
+    }
+    
+    .home-ve .box-header:before {
+        background-size: 350px;
+        background-position: center 105px;
+    }
+    
+    .home-ve .box-header .form-header .row {
+        margin: 0px;
+    }
+    
+    .home-ve .box-header .form-header .container,
+    .home-ve .box-header .form-header .row > div {
+        padding: 0px !important;
+    }
+    
+    .home-ve .box-header .form-header .form-group:last-child {
+        right: 0px;
+    }
+    
+    .home-ve .box-header .form-header .row-flex {
+        box-shadow: none;
+    }
+    
+    .home-ve .box-cat {
+        padding: 30px 0px 0px;
+        overflow: hidden;
+    }
+    
+    .home-ve .box-cat.others {
+        padding: 20px 0px;
+    }
+    
+    .home-ve .box-cat .container {
+        padding: 0px;
+    }
+    
+    .home-ve .box-cat .content {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0px;
+        border: none;
+    }
+    
+    .home-ve .box-cat .content .box {
+        width: 50%;
+        padding: 20px 15px;
+        display: block;
+        border-top: 1px solid #F0F0F0;
+    }
+    
+    .home-ve .box-cat .content .box {
+        border: none;
+    }
+    
+    .home-ve .box-cat .content .box,
+    .home-ve .box-cat .content .box:last-child {
+        border-top: 1px solid #F0F0F0;
+    }
+    
+    .home-ve .box-cat .content .box:nth-child(2n+1) {
+        border-right: 1px solid #F0F0F0;
+    }
+    
+    .home-ve .box-cat .content.first .box:nth-child(1),
+    .home-ve .box-cat .content.first .box:nth-child(2) {
+        border-top: none;
+    }
+    
+    .home-ve .box-cat .content span,
+    .home-ve .box-cat .content.first .box span {
+        height: 100px;
+    }
+    
+    .home-ve .box-cat .content span img {
+        max-width: 85%;
+    }
+    
+    .home-ve .box-cat .content .box p {
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .home-ve .box-cat.others .content .box {
+        width: 33.33333%;
+    }
+    
+    .home-ve .box-cat.others .content .box:nth-last-child(1),
+    .home-ve .box-cat.others .content .box:nth-last-child(2) {
+        width: 50%;
+    }
+    
+    .home-ve .box-cat .content .box p:after {
+        display: block;
+        position: static;
+        margin: 10px auto;
+    }
+    
+    .home-ve .box-cat .content span {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .home-ve .box-cat .content span img {
+        position: static;
+    }
+    
+    .home-ve .box-cat.others .content .box {
+        border: none;
+        border-top: 1px solid #F0F0F0;
+        border-right: 1px solid #F0F0F0;
+    }
+    
+    .home-ve .box-cat.others .content:first-child .box:nth-child(1),
+    .home-ve .box-cat.others .content:first-child .box:nth-child(2),
+    .home-ve .box-cat.others .content:first-child .box:nth-child(3) {
+        border-top: none;
+    }
+    
+    .home-ve .box-cat.others .content .box:nth-child(3n){
+        border-right: none;
+    }
+    
+    .home-ve .box-cat.others .content .box {
+        padding: 20px 5px;
+    }
+    
+    .home-ve .box-cat.others .content .box p {
+        font-size: 12px;
+    }
+    
+    .home-ve .box-cat.others .content .box p strong {
+        font-size: 15px;
+    }
+    
+    .home-ve .box-cat.others .content span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 80px;
+    }
+    
+    .home-ve .box-cat.others .content span img {
+        margin: 0px auto;
+    }
+    
+    .home-ve .box-funciona {
+        text-align: center;
+    }
+    
+    .home-ve .box-funciona img {
+        position: static;
+        margin-bottom: 15px;
+    }
+    
+    .home-ve .box-funciona p {
+        padding: 0px !important;
+        min-height: 0px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .home-ve .box-funciona .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .home-ve .box-funciona .row:before,
+    .home-ve .box-funciona .row:after {
+        display: none;
+    }
+    
+    .page-categorias .box-content {
+        padding-top: 30px;
+    }
+    
+    .page-categorias .box-categoria {
+        padding-top: 38px;
+    }
+    
+    #categoryProduct {
+        top: 61px;
+        height: 38px;
+    }
+    
+    #categoryProduct .titulo-panel span {
+        position: static;
+        display: inline-block;
+        padding: 0px;
+        color: #fff;
+        text-align: right;
+        cursor: pointer;
+        border: none;
+        font-weight: 700;
+    }
+    
+    /* .precios-tasacion.active-promo .row > div:first-child .content h4 { */
+    .precios-tasacion.active-promo .row > div .content h4 {
+        /* margin-top: 30px; */
+        margin-top: 20px;
+    }
+    
+    .precios-tasacion .content p span.price-promotion:before {
+        right: -40px;
+        top: -110px;
+    }
+    
+    .precios-tasacion .content p.price, .precios-tasacion .content p span.price-promotion {
+        font-size: 30px !important;
+        white-space: nowrap;
+        letter-spacing: -0.5px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    
+    .footer .row-footer {
+        display: block;
+        padding: 25px 0px 80px;
+    }
+    
+    .footer .row-footer > .col:first-child {
+        margin-bottom: 30px;
+    }
+    
+    .footer h4 {
+        font-size: 14px;
+        line-height: 30px;
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+    
+    .footer h4:after {
+        content: '\f107';
+        font-family: 'fontAwesome';
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    
+    .footer h4.active:after {
+        content: '\f106';
+    }
+    
+    .footer .row-footer ul {
+        margin-bottom: 20px;
+        display: none;
+    }
+    
+    .footer .row-footer ul li {
+        line-height: 20px;
+    }
+    
+    .footer .box-legal {
+        position: relative;
+    }
+    
+    .footer .box-legal .social {
+        float: none;
+        position: absolute;
+        bottom: 100px;
+        left: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .footer .box-legal .social li a {
+        margin: 0px 5px;
+    }
+
+    .box-faqs .panel-title {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .box-faqs .panel-heading {
+        padding: 10px 15px;
+    }
+
+    .box-faqs .panel-body {
+        padding: 10px 15px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .product-details .box-content {
+        padding: 30px 0px 0px;
+    }
+
+    .box-content.precios-tasacion {
+        padding: 30px 0 40px;
+    }
+
+    .product-details .box-content .btn-solid {
+        width: 100%;
+    }
+
+    .precios-tasacion h2 {
+        font-size: 23px!important;
+        line-height: 26px;
+    }
+
+    .precios-tasacion .row {
+        padding: 0;
+    }
+
+    .precios-tasacion .content {
+        padding: 20px 8px;
+    }
+
+    .precios-tasacion .content h4 {
+        font-size: 19px;
+        letter-spacing: 0.3px;
+        margin-bottom: 10px;
+        line-height: 1.1;
+    }
+
+    .precios-tasacion .content p.price {
+        font-size: 40px;
+        line-height: 60px;
+        margin: 0px;
+    }
+
+    .precios-tasacion .row > div:before {
+        z-index: 3;
+        top: -24px;
+        left: 50%;
+        width: 75px;
+        height: 70px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .precios-tasacion .row > div:last-child:before {
+        width: 75px;
+        height: 70px;
+        right: auto;
+    }
+
+    .precios-tasacion .content p.price span,
+    .precios-tasacion .content p.price sup {
+        bottom: 20px;
+        font-size: 14px;
+    }
+    
+   
+    .precios-tasacion .content p.asteric {
+        margin-top: 0;
+    }
+    
+    .precios-tasacion .content p.asteric,
+    .precios-tasacion .content p.ast-info {
+        order: 2;
+    }
+    
+    .precios-tasacion .content p.ast-info {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+
+    .precios-tasacion .content p.asteric,
+    .precios-tasacion .content p.info {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .not-categorized .precios-tasacion .row > div .content p:not(.price) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .not-categorized .precios-tasacion .row > div .content .bb-promo p:not(.price) {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .precios-tasacion .content .btn-border {
+        padding: 10px;
+        margin-top: 10px !important;
+        position: relative !important;
+        bottom: auto;
+        left: auto;
+        -webkit-transform: none;
+        transform: none;
+    }
+    
+    .product-details .box-content .row > div {
+        padding: 0px 15px;
+    }
+    
+    .page-ean .box-videogames .btn-solid {
+        padding: 15px;
+    }
+
+    .precios-tasacion .row > div {
+        padding: 0px !important;
+    }
+
+    .precios-tasacion .content {
+        border-radius: 0px;    
+    }
+    
+    .product-details .box-sticky {
+        display: none;
+    }
+
+    .precios-tasacion .content,
+    .not-categorized .precios-tasacion .content {
+        padding: 55px 12px 10px;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .precios-tasacion.active-promo .content,
+    .not-categorized .precios-tasacion.active-promo .content {
+        padding-top: 15px;   
+    }
+    
+    .not-categorized .precios-tasacion .row > div:last-child .content p {
+        margin: 0px;
+    }
+
+    .not-categorized .box-categories .content {
+        padding: 0;
+        background-color: #F9F9FC;
+    }
+
+    .not-categorized .box-categories .content .box-icon p {
+        padding: 0 65px;
+    }
+
+    .not-categorized .btn.btn-solid {
+        padding: 15px 40px;
+    }
+
+    .precios-tasacion .content .btn-border {
+        white-space: normal;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .page-checkout .box-form .payment-method {
+        padding: 0;
+        height: 145px;
+    }
+
+    .page-checkout .box-content-resumen .content.form-fields {
+        background: transparent;
+    }
+
+    .page-checkout .view-more {
+        background: #fff;
+    }
+
+    .page-repartidores .info-cita p {
+        font-size: 14px;
+    }
+
+    .page-repartidores.page-content .box-form h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .page-repartidores .box-mobile .box {
+        text-align: center;
+    }
+
+    .page-repartidores .box-mobile h4 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 600;
+    }
+
+    .page-repartidores .box-mobile p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .page-repartidores .full .box-caja h4 {
+        font-size: 21px;
+    }
+
+    .page-repartidores .full .box-caja h4 strong {
+        font-size: 32px;
+    }
+
+    .page-repartidores .box-steps h3 {
+        font-size: 20px;
+    }
+
+    .page-repartidores .box-steps .row > div:before {
+        font-size: 64px;
+        position: absolute;
+    }
+
+    .page-repartidores .box-steps .row > div {
+        margin-bottom:30px;
+    }
+
+    .page-repartidores .box-steps p {
+        font-size: 12px;
+        padding-left: 65px;
+    }
+
+    .page-repartidores .box-steps p.bottom {
+        padding-left: 0;
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .page-repartidores .box-steps {
+        border-bottom: 0;
+    }
+
+    .page-ean .box-info-ean > .container > div.row-flex {
+        display: block;
+    }
+
+    .page-ean .ul-ean {
+        padding-right: 0;
+    }
+
+    .page-ean .box-videogames .view-appraisal {
+        width: 100%;
+    }
+    
+    .page-checkout .box-form #appointmentData .container {
+        padding: 10px 15px 20px !important;
+    }
+    
+    .page-checkout .box-form h1.venta-online,
+    .page-checkout .box-form #appointmentData h2,
+    .page-checkout .box-form #appointmentData h2 strong {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+    
+    .page-checkout .box-form h2 {
+        margin-top: 25px;
+    }
+    
+    .page-checkout .box-form h1.venta-online strong,
+    .page-checkout .box-form #appointmentData h2 strong {
+        font-weight: 800;   
+    }
+
+    .page-ean .box-what-ean {
+        padding-left: 15px;
+    }
+    
+    .page-repartidores .page-pedido .top-info .box-white {
+        margin-bottom: 10px;
+    }
+    
+    .page-checkout .view-more {
+        border: none;
+    }
+    
+    .page-checkout .top-info .btn-prop {
+        display: block;
+        float: none !important;
+        width: 230px;
+        margin: 20px auto 0px !important;
+    }
+    
+    .page-repartidores .box-mobile .image {
+        margin-top: 10px;
+        max-width: 260px;
+        margin: 10px auto 20px;
+        display: block;
+    }
+    
+    .precios-tasacion .content h4 strong {
+        display: block;
+    }
+    
+    .not-categorized .precios-tasacion .row > div:first-child .content p {
+        margin: 15px 0px;
+    }
+
+    .not-categorized .precios-tasacion .row > div:first-child .content .bb-promo p {
+        margin: 0px;
+    }
+    
+    .page-repartidores .info-cita ul li {
+        margin: 15px 0px;
+        display: block;
+    }
+    
+    .page-repartidores .box-caja h4 {
+        padding: 30px 15px 25px !important;
+    }
+    
+    .page-repartidores .box-caja .box-bottom {
+        text-align: center !important;
+    }
+    
+    .page-repartidores .box-caja h4 strong {
+        font-size: 28px !important;
+    }
+    
+    .product-details .box-product-works > div {
+        padding: 0px 5px !important;
+    }
+    
+    .box-radios .radio span, .form-email .form-control {
+        white-space: nowrap;
+    }
+    
+    .product-details .box-content .btn-solid, .btn.btn-solid.btn-bottom.btn-add-cart {
+        padding: 15px;
+    }
+    
+    .page-checkout .box-content-resumen {
+        padding: 10px 0px;
+    }
+
+    .page-checkout .table tr td {
+        vertical-align: middle;
+    }
+    
+    .landing-login .box-top {
+        padding: 0px;
+    }
+    
+    .landing-login .box-top:before {
+        background-size: 850px;
+        background-position: top left;
+    }
+    
+    .landing-login .box-top .content-left {
+        padding: 35px 0px 0px;
+    }
+    
+    .landing-login .box-top .content-left .logo {
+        margin-bottom: 25px;
+        width: 187px;
+    }
+    
+    .landing-login .box-top .content-left .image {
+        display: none;
+    }
+    
+    .landing-login .box-top .row > div:last-child {
+        padding: 0px 10px;
+    }
+    
+    .landing-login .box-top .content-left h2 {
+        margin-bottom: 0px;
+    }
+    
+    .landing-login .box-top .content-left h2,
+    .landing-login .box-top .content-right h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    
+    .landing-login .box-top .content-left p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+    .landing-login .box-top .content-right {
+        padding: 5px 20px 20px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        background: #fff;
+    }
+
+    .landing-login .box-top .content-right h3 {
+        margin-top: 0px;
+    }
+    
+    .landing-login .box-resume {
+        text-align: center;
+        margin-top: -200px;
+        padding-top: 200px;
+    }
+    
+    .landing-login .box-resume .row > div:last-child p {
+        margin-bottom: 10px;
+    }
+    
+    .landing-login .box-resume p {
+        min-height: 0px !important;
+        margin-bottom: 30px;
+    }
+    
+    .landing-login .box-cat {
+        padding: 50px 0px 30px;
+    }
+    
+    .landing-login .box-cat .title {
+        padding: 0px 15px;
+    }
+    
+    .landing-login .box-cat .title h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .landing-login .box-cat .title h3 br {
+        display: none;
+    }
+    
+    .landing-login .box-cat .title p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .landing-login .box-footer {
+        text-align: center;
+    }
+    
+    .landing-login .box-footer > .container {
+        padding: 100px 0px 10px;
+    }
+    
+    .landing-login .box-footer img {
+        width: 187px;
+    }
+    
+    .landing-login .box-footer .social {
+        float: none;
+        position: relative;
+        bottom: 80px;
+    }
+    
+    .landing-login .box-footer .social li a {
+        margin: 0px 5px;
+    }
+    
+    .landing-login .box-bottom h3 {
+        padding: 0px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .landing-login .box-bottom .btn-solid {
+        margin: 15px auto;
+        display: block;
+        max-width: 400px;
+        min-width: 0px;
+    }
+    
+    .landing-login .btn-solid.btn-blanc img {
+        display: none;
+    }
+    
+    .landing-login .box-footer p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .home-ve .box-header .slide-content .image {
+        left: 0px;
+        width: 100%;
+        background-position: center 80% !important;
+        background-size: 400px !important;
+    }
+    
+    .home-ve .box-header .slide-content.promo .content-header {
+        text-align: center;
+    }
+    
+    .home-ve .box-header .slide-content.promo img {
+        margin-top: 0px;
+        width: 230px;
+    }
+    
+    .home-ve .box-header .slide-content.promo .image {
+        background-size: 350px !important;
+        background-position: 55% 180% !important;
+    }
+    
+    .home-ve .box-header .image {
+        -webkit-transform: translate(0px, 30px);
+        transform: translate(0px, 30px);
+    }
+    
+    .home-ve .box-header .form-header {
+        margin-top: -28px;
+        padding: 0px;
+        -webkit-box-shadow: 0px 8px 12px -4px rgba(0,0,0,0.08);
+        -moz-box-shadow: 0px 8px 12px -4px rgba(0,0,0,0.08);
+        box-shadow: 0px 8px 12px -4px rgba(0,0,0,0.08);
+    }
+    
+    .home-ve .box-header .form-header .form-group:first-child {
+        border: none;
+    }
+    
+    .page-ean .box-what-ean img.promo,
+    .page-ean .p-ean {
+        margin-top: 10px;
+    }
+    
+    .page-ean .banner-renove img {
+        margin-bottom: 15px;
+    }
+    
+    .precios-tasacion.active-promo h2 {
+        margin-bottom: 110px !important;
+    }
+    
+    .active-promo.precios-tasacion .bb-promo.promo-circle{
+        margin-top: -100px;
+        /* width: 130px; */
+    }
+    
+    .precios-tasacion .content .btn-border {
+        width: calc(100% - 5px);  
+        padding: 10px 5px;
+    }
+    
+    .precios-tasacion .content p.price,
+    .precios-tasacion .content span.price {
+        font-size: 34px;
+        line-height: 30px;
+    }
+    
+    .home-ve .box-cat .content span img.icon-promo {
+        top: -8px;
+        left: calc(50% - 50px);
+        width: 50px;
+    }
+    
+    .home-ve .box-cat .content .box:hover img.icon-promo {
+        top: -8px;
+    }
+    
+    .precios-tasacion .content p.price .price-back {
+        bottom: 8px;
+        font-size: 21px;
+    }
+    
+    .precios-tasacion .content p.price .price-back:before {
+        height: 2px;
+        top: 14px;
+    }
+    
+    .specs-accordeon .box-form.product-specs {
+        padding-bottom: 10px;
+    }
+    
+    .specs-accordeon .product-specs + .product-specs {
+        padding-top: 5px !important;
+    }
+    
+    .specs-accordeon .form-group {
+        margin-bottom: 15px !important;
+    }
+    
+    .specs-accordeon .box-radios .radio span {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    
+    .product-details .box-flex .box-radios .radio span,
+    .specs-accordeon .box-flex .box-radios .radio span {
+        padding: 8px 10px;
+        line-height: 16px;
+        height: auto;
+    }
+    
+    .specs-accordeon .panel-group .panel-body .panel-content {
+        margin-bottom: 10px;
+    }
+    
+    .specs-accordeon .panel-group .panel-body .panel-bottom .view-appraisal {
+        min-width: 0px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .specs-accordeon .panel-group .panel-body .panel-bottom .btn-next {
+        padding: 12px;
+    }
+    
+    .page-arbol .box-content .list-group {
+        flex-direction: column-reverse;
+    }
+    
+    .page-arbol .box-content .content ul {
+        width: 100%;
+        margin: 0px;
+        border: none;
+        display: none;
+    }
+    
+    .page-arbol .box-content .content ul:last-child {
+        display: block;
+    }
+    
+    .page-arbol .box-content .list-group ul li {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 8px 20px 8px 0px;
+    }
+    
+    .page-arbol .box-content .list-group ul li:before {
+        right: 0px;
+    }
+    
+    .page-arbol .box-content .list-group ul li.back {
+        display: block;
+    }
+    
+    .page-arbol .box-content .list-group ul li.active,
+    .page-arbol .box-content .list-group ul li:hover {
+        color: #9EA0B2;
+        opacity: .8;
+        background: transparent;
+    }
+    
+    .page-arbol .box-content h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 30px;
+    }
+    
+    .form-header .container, .form-header .container > .row > div {
+        padding: 0px;
+    }
+    
+    .form-header .container > .row {
+        margin: 0px;
+    }
+    
+    .form-header .input-group {
+        width: calc(100% - 30px) !important;
+    }
+    
+    .page-content .box-categoria .form-header .form-group:last-child {
+        right: 0px;
+    }
+    
+    .form-header .input-group .filter {
+        width: 30px !important;
+        background: url(../png/nav.png) no-repeat left center;
+        background-size: 26px;
+        padding-left: 50px;
+    }
+    
+    .form-header button.form-control {
+        background: #fff !important;
+        padding: 0px 15px !important;
+    }
+    
+    .page-content .searchAppraisal.waiting:before {
+        right: 50px !important;
+    }
+    
+    .specs-accordeon .box-categories .content h4 {
+        color: #797979;
+        margin-top: 15px;
+    }
+
+    .specs-accordeon .more-arbol a i {
+        font-size: 17px;
+        margin-left: 2px;
+        position: relative;
+        top: 1px;
+    }
+    
+    .specs-accordeon .box-categories .content #view-cat-list {
+        position: static;
+    }
+    
+    .specs-accordeon .product-specs h3 {
+        margin: 15px 0px 0px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .specs-accordeon .dz-clickable .dz-message img {
+        margin: 0px;
+    }
+    
+    .specs-accordeon .bg-categoria {
+        padding: 20px 0px 45px !important;
+    }
+    
+    .bg-faqs, .bg-politics, .bg-categoria,
+    .product-details .bg-categoria,
+    .specs-accordeon.non-search .bg-categoria {
+        padding: 20px 0px !important;
+    }
+    
+    .bg-categoria h1, .bg-categoria h1 span,
+    .product-details .bg-categoria h1,
+    .specs-accordeon .bg-categoria h1,
+    .product-details .bg-categoria h1 span,
+    .specs-accordeon .bg-categoria h1 span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .product-details .box-content .row-thermo .radio span {
+        font-size: 13px;
+        line-height: 23px;
+        padding: 5px 10px;
+        height: auto;
+    }
+    
+    .page-arbol .box-categoria .form-header {
+        bottom: -55px;
+    }
+    
+    #dropZoneProduct .zone-aux > span:before {
+        background-size: 40px;
+    }
+    
+    .dz-clickable .dz-message img {
+        width: 50px;
+    }
+    
+    .dz-clickable .dz-message strong {
+        font-size: 20px;
+        margin: 0px;
+    }
+ 
+    #dropzoneAnadirProduct,
+    #dropZoneProduct .zone-aux {
+        min-height: 0px;
+        height: 115px;
+    }
+    #dropzoneAnadirProduct .dz-message {
+        padding: 8px 0px;
+        height: 115px;
+    }
+    
+    #dropzoneAnadirProduct .dz-preview .dz-image img {
+        max-height: 80px;
+    }
+    
+    #dropzoneAnadirProduct .dz-preview .dz-image {
+        height: 90px;
+    }
+    
+    .home-ve .box-header .consolas .content-header {
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .home-ve .box-header .slide-content.consolas img {
+        width: 250px;
+        margin-top: 8px;
+    }
+    
+    .home-ve .box-header .slide-content.consolas .image {
+        z-index: 12;
+        background-size: 330px !important;
+        background-position: calc(50% - 10px) 130px !important;
+    }
+    
+    .home-ve .box-header .slide-content.consolas .info {
+        left: 0;
+        bottom: -97px;
+        font-size: 14px;
+        letter-spacing: 0px;
+        width: 100%;
+        margin: 0;
+        white-space: normal;
+        line-height: 14px;
+        text-shadow: none;
+        color: #595959;
+    }
+    
+    .page-categorias .promo-box {
+        padding: 0px;
+    }
+    
+    .page-categorias .icon-promo {
+        margin: -30px 0px 30px;
+    }
+    
+    .precios-tasacion .content p.price,
+    .precios-tasacion .content span.price,
+    .precios-tasacion .content p span.price-promotion  {
+        line-height: 50px;
+    }
+
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+    .left-side{
+        min-height: auto;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .right-side{
+        padding: 10px 20px;
+    }
+
+    .header .logo {
+        width: 170px;
+        margin-left: 26px;
+    }
+    
+    .header .navbar-right {
+        padding: 13px 15px 10px 15px;
+    }
+    
+    .page-checkout .box-form h1.venta-online .first,
+    .page-checkout .box-form #appointmentData h2 .first {
+        display: none;
+    }
+    
+    .page-checkout .box-form h1.venta-online,
+    .page-checkout .box-form #appointmentData h2 {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    
+    .page-checkout .box-form h1.venta-online img,
+    .page-checkout .box-form #appointmentData h2 img {
+        margin-right: 6px;
+        width: 30px;
+    }
+    
+    .page-checkout .box-form #appointmentData h2 small {
+        font-size: 12px;
+    }
+    
+    .page-checkout .box-form button {
+        padding: 20px;
+    }
+    
+    .page-content .box-form.product-specs.special .content {
+        padding: 20px 0px;
+    }
+    
+    .page-content .box-form.product-specs.special .form-group.row-flex {
+        display: block;
+    }
+    
+    .page-content .box-form.product-specs.special .form-group.row-flex > div {
+        width: 100%;
+    }
+    
+    .product-details .box-content .row > div {
+        padding: 0px 15px;
+    }
+
+    .page-pedido .box-table .descripcion {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    
+    .page-pedido .box-table .metodo {
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    .page-pedido .box-table .tasacion {
+        font-size: 20px; 
+    }
+    
+    .box-radios .radio span, .form-email .form-control {
+        padding: 12px 2px;
+    }
+    
+    .page-checkout.bg-prepara .box-content-resumen {
+        padding-top: 10px;
+    }
+    
+    #categoryProduct {
+        top: 58px;
+    }
+
+    .page-checkout .envio-recogida .box-message .box-tooltip {
+        min-width: 0;
+    }
+
+    .page-content.bg-prepara.page-pedido .box-content-resumen .tasacion {
+        min-width: 90px;
+    }
+    
+    .home-ve .box-header .slide-content .image {
+        background-size: 350px !important;
+        background-position: center 75% !important
+    }
+    
+    .home-ve .box-header .slide-content.promo .image {
+        background-size: 320px !important;
+        background-position: 55% 150% !important;
+    }
+    
+    .home-ve .box-cat .content span img.icon-promo {
+        left: 40px;
+    }
+    
+    .specs-accordeon .panel-group .panel-heading .info {
+        display: none;   
+    }
+    
+    .products .col-device.consolas {
+        width: 50%;
+    }
+    
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 320px) {
+
+    .header .logo {
+        width: 150px;
+        margin-bottom: 22px;
+    }
+    
+    .precios-tasacion .content .btn-border {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+    
+}

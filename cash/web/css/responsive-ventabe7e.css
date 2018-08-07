@@ -1,0 +1,273 @@
+/* 
+
+CASH CONVERTERS ESPAÑA S.L. 2018
+This file was originally created by Cash Converters development team.
+No public difusion allowed. Code rights reserved.
+Contact us ayuda@cash-converters.es
+http://www.cashconverters.es
+
+*/
+
+/************************ RESPONSIVE ************************/
+
+/* X-Large desktop */
+@media (min-width: 1200px) {
+    
+    
+    
+}
+
+/* Large desktop */
+@media (max-width: 1199px) { 
+
+    .home-ve .box-ground .content {
+        max-width: 340px;
+    }
+    
+    .home-ve .box-ground .content:before {
+        background-size: 500px;
+    }
+    
+    .home-ve .box-vender .row > div:first-child .content {
+        padding-right: 30px;
+    }
+    
+    .home-ve .box-vender .row > div:last-child .content {
+        padding-left: 30px;
+    }
+    
+    .home-ve .box-ground .content:before {
+        left: -470px;
+        top: 80px;
+    }
+    
+    .home-ve .box-ground .row > div:last-child .content:before {
+        right: -540px;
+        top: 40px;
+    }
+    
+    .home-ve .box-ground .content .bottom {
+        position: relative;
+    }
+    
+}
+
+@media (max-width: 1140px) {
+    
+    #navbar-toggle-header {
+        background: #F6F5F5;
+    }
+    
+    #navbar-toggle-header .icon-bar {
+        background: #000;
+    }
+    
+    header.navbar-fixed-top:after,
+    #topbar {
+        background: #db0d5e; /* Old browsers */
+        background: -moz-linear-gradient(left, #db0d5e 0%, #f03782 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #db0d5e 0%,#f03782 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #db0d5e 0%,#f03782 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+    
+    #content .edit-profile .panel-body-bottom .section .content a {
+        background: #C0C7CD !important;
+        border-color: #C0C7CD !important;
+        color: #fff !important;
+    }
+    
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 991px) { 
+    
+    .home-ve .box-ground .content:before{
+        display: none;
+    }
+    
+    .home-ve .box-ground .content {
+        max-width: 100%;
+        padding: 30px 20px !important;
+    }
+    
+    .home-ve .box-ground .row > div:last-child {
+        background: #E31E6D;
+    }
+    
+    .home-ve .box-ground .row > div:first-child .content {
+        float: none;
+    }
+    
+    .home-ve .box-funciona .content .row > div {
+        margin-top: 15px;
+    }
+
+    .page-pedido .box-form .text-dni {
+        margin-top: 0;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    .form-header button.form-control {
+        background: #fff !important;
+    }
+    
+    .header .navbar-right {
+        background: #F6F5F5;
+    }
+    
+    .home-ve .box-ground:before {
+        display: none;
+    }
+    
+    .home-ve .box-header .item.active .content-header {
+        max-width: 100%;
+    }
+    
+    .home-ve .box-header .content-header h1 {
+        padding: 0px;
+        margin: 0px;
+        line-height: 28px;
+        font-size: 24px !important;
+        margin-bottom: 5px;
+    }
+    
+    .home-ve .box-header .content-header h1 strong:first-child {
+        margin: 0px;
+        display: inline-block;
+        font-size: 24px !important;
+    }
+    
+    .searchAppraisal.waiting:before {
+        right: 45px;
+    }
+    
+    #categoryProduct .titulo-panel span {
+        color: #fff;
+    }
+    
+    body.body-categories #categoryProduct,
+    .precios-tasacion .row > div:first-child .content {
+        box-shadow: none;
+    }
+    
+    .edit-profile .nav-tabs {
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    
+    .edit-profile .nav-tabs li {
+        margin: 0px 4px;
+    }
+    
+    .edit-profile .nav-tabs li a, .edit-profile .nav-tabs li a:active,
+    .edit-profile .nav-tabs li a:hover, .edit-profile .nav-tabs li a:focus {
+        border-color: #C3C3C3;
+        color: #9B9B9B;
+        border-radius: 4px;
+        -webkit-box-shadow: 0px 0px 0px 1px #fff;
+        box-shadow: 0px 0px 0px 1px #fff;
+    }
+    
+    .edit-profile .nav-tabs li.active a,
+    .edit-profile .nav-tabs li.active a:hover {
+        border-color: #DB0D5E;
+        color: #DB0D5E;
+        background: transparent;
+        -webkit-box-shadow: 0px 0px 0px 1px #DB0D5E;
+        box-shadow: 0px 0px 0px 1px #DB0D5E;
+        font-weight: 600;
+    }
+    
+    .home-ve .box-funciona .content {
+        padding: 30px;
+    }
+    
+    .home-ve .box-funciona .content img {
+        position: static;
+    }
+    
+    .home-ve .box-funciona p {
+        margin: 10px 0px 20px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .home-ve .box-funciona .promo-message {
+        font-size: 18px;
+    }
+    .home-ve .box-funciona .content .row.promo-message > div:last-child {
+        margin-top: 5px;
+    }
+
+    .landing-login .box-change {
+        margin-top: -12px;
+    }
+    
+    .landing-login .box-change p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-right: 110px;
+    }
+    
+    .landing-login .box-resume {
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+
+    .promo-categoria {
+        font-size: 14px;
+    }
+
+    .page-ean .promo-categoria {
+        display: block;
+        margin-bottom: 25px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+    .home-ve .box-funciona .content {
+        padding: 30px 15px;
+    }
+    
+    .home-ve .box-funciona .content .row {
+        margin: 0 -10px;
+    }
+    
+    .home-ve .box-funciona .content .row > div {
+        padding: 0 10px;
+    }
+    
+    .landing-login .box-change {
+        text-align: center;
+    }
+    
+    .landing-login .box-change p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .landing-login .box-change img {
+        width: 80px;
+        position: static;
+        margin-bottom: 15px;
+        -webkit-transform: none;
+        transform: none;
+    }
+    
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 320px) {
+
+   
+    
+}

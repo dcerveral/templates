@@ -1,0 +1,127 @@
+/************************ PRINT VERSION ************************/
+
+@page {
+    size: auto;
+    margin: 20px 20px;
+}
+
+@media print {
+    
+    body {
+        background: #fff;
+        color: #000;
+    }
+
+    a:link:after,
+    a:visited:after {
+        display: none;
+    }    
+
+    .pagebreak { 
+        page-break-before: always;
+    }
+
+    .box-cita {
+        page-break-inside: avoid;
+    }
+    
+    * {
+        -webkit-print-color-adjust: exact; 
+    }
+    
+    .header .header-content,
+    .page-area .box-cita .box-date span:first-child {
+        background-color: rgba(171,45,102,1) !important;
+    }
+    
+    .header .header-content h1 {
+        color: #fff !important;
+    }
+    
+    .print-page .box-title h2 {
+        color: #E50A78 !important;
+    }
+    
+    .print-page p, .print-page p strong {
+        color: #787777 !important;
+    }
+    
+    .print-page .box-title p {
+        color: #333 !important;
+    }
+    
+    .page-area .box-cita .box-date span:first-child {
+        background-color: #EA547B !important;
+        color: #fff !important;
+    }
+    
+    .print-page .box-cita .dropdown .actions .fa-clock-o:before,
+    .print-page .box-cita .dropdown .actions .fa-clock-o + span,
+    .print-page .box-cita .dropdown .actions .fa-question:before,
+    .print-page .box-cita .dropdown .actions .fa-question + span {
+        color: #999 !important;
+    }
+    
+    .print-page .box-cita .dropdown .actions .fa-check:before,
+    .print-page .box-cita .dropdown .actions .fa-check + span {
+        color: #23af2e !important;
+    }
+    
+    .print-page .box-cita .dropdown .actions .fa-close:before,
+    .print-page .box-cita .dropdown .actions .fa-close + span {
+        color: #d61d1d !important;
+    }
+ 
+}
+
+.print-page .content-citas {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.print-page .box-title {
+    margin-bottom: 30px;
+}
+
+.print-page .box-title h2 {
+    text-align: center;
+    margin: 0px 0px 5px;
+}
+
+.print-page .box-title p {
+    text-align: center;
+}
+
+.print-page .box-cita .dropdown .actions {
+    margin-right: 0px;
+}
+
+.print-page .box-cita .dropdown .actions .fa-clock-o:before,
+.print-page .box-cita .dropdown .actions .fa-clock-o + span,
+.print-page .box-cita .dropdown .actions .fa-question:before,
+.print-page .box-cita .dropdown .actions .fa-question + span {
+    color: #999 !important;
+}
+
+.print-page .box-cita .dropdown .actions .fa-check:before,
+.print-page .box-cita .dropdown .actions .fa-check.euro:after,
+.print-page .box-cita .dropdown .actions .fa-check + span {
+    color: #23af2e !important;
+}
+
+.print-page .box-cita .dropdown .actions .fa-check.euro {
+    position: relative;
+}
+
+.print-page .box-cita .dropdown .actions .fa-check.euro:after {
+    content: '\f153';
+    font-size: 12px;
+    position: absolute;
+    top: 11px;
+    right: -2px
+}
+
+.print-page .box-cita .dropdown .actions .fa-close:before,
+.print-page .box-cita .dropdown .actions .fa-close + span {
+    color: #d61d1d !important;
+}

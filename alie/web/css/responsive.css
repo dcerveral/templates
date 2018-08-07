@@ -1,0 +1,184 @@
+@media only screen and (min-width : 1200px) {
+.page404 svg{margin-top: 60px;}
+footer {background-position: center;}
+}
+@media only screen and (max-width : 1200px) {
+.page404 svg{margin-top: 30px;}
+.emailIds { width: 100%;}
+.serviceListing .iconCircle span, .serviceListing .iconCircle span:hover {width: 92px;	}
+.navigation .col-sm-12 ul.topNAv > li > a{ padding: 0 15px;}
+.captionText h2 { font-size: 32px;}
+.formOuter {padding-right: 0;}
+footer {background-position: center;}
+
+}
+
+@media only screen and (max-width : 992px) {
+.page404 svg{max-width: 100%}	
+.blackHD {font-size: 22px;}
+.introText p {font-size: 14px;}
+.logo {width: 190px;}
+.navigation .col-sm-12 ul.topNAv > li > a {padding: 0 8px;font-size: 14px;}
+.navigation .col-sm-12 ul.topNAv .contactUs {margin-left: 0px;}
+.navigation .col-sm-12 ul.topNAv .contactUs a {padding: 5px 5px !important;}
+.navBottom {margin-top: 15px;}
+.navBottom .oneThird:first-child {min-width: 142px;}
+.navBottom .oneThird {padding: 0 5px 10px 9px;}
+.logo {margin-top: 24px;}
+.captionText h2 {font-size: 40px;}
+.captionText {height: 250px;}
+.featureOuter .col-sm-4 {padding: 0 30px;}
+.freeConsultion h2 {font-size: 24px;}
+.callNo {font-size: 17px;}
+.formOuter {padding-right: 0px;}
+.portfolioOuter .description {margin-top: 20px;}
+.portfolioOuter .workTitle {margin: 20px 0; font-size: 22px;}
+.industries {font-size: 17px;}
+.portfolioOuter .description {font-size: 14px;line-height: 24px;}
+.portfolioOuter .owl-prev, .portfolioOuter .owl-next {width: 30px;height: 60px;margin-top: -15px; background-size:16px !important;}
+.featureOuter .col-sm-4 .blackHD {font-size: 17px;}
+.megaDropDown > ul {padding: 20px 0}
+.dropDown > ul:after{left: 308px;}
+.dropDown > ul:before{left: 310px;}
+.leftSideBar {padding: 0 0px 0 15px; }
+.rightContent {padding-left: 20px;}
+.serviceListing .iconCircle {float: none;     height: 92px;width:100%;}
+.serviceListing .col-sm-6 .serviceBox{text-align:center; margin-bottom:20px;}
+.serviceListing .iconCircle  span{ background-color:transparent !important; margin:auto; float:none; display:inline-block;     height: 90px;}
+.serviceListing .col-sm-6 .serviceBox a {margin: 0px 0 10px 0;}
+.hire{margin:20px 0 !important;  }
+
+.callout h2 {font-size: 23px;}
+.captionText h2 { font-size: 30px;}
+
+.testimonialsSlider .owl-next {right: -20px;}
+.testimonialsSlider .owl-prev {left: -20px;}
+#back-to-top {bottom: 10px;right: 10px;}
+.blogOuter .leftSideBar{width: 33.333%; padding: 0 15px 0 10px;}
+.blogOuter .rightContent {padding-right: 20px;}
+.tagcloud a {font-size: 13px;letter-spacing: 0px; padding: 3px 13px;}
+.post-meta .post-meta-categories{margin-left: 0px;} 
+.serviceBox a { font-size: 18px;}
+.package-features .column-7p, .package-features .column-3p{text-align: center; width: 100%;}
+header .logo{max-width: 130px;}
+.section.blogContainer > .container{padding: 0px;}
+.blogOuter .sidebar { padding: 0 0px 0 0px;}
+.portfolioDetailSlider img {height: 300px; }  
+.get-touch-area .sec-title {padding: 0 0 30px 0;}
+.review.fr{    padding: 5px 0 0 0;  display: block;    float: none;}
+.portfolioDetailSliderFullWidth .projectTitle h2 {font-size: 24px;}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+body{overflow-x: hidden; max-width: 100vw;}    
+.featureOuter, footer, .section{overflow-x: hidden; max-width: 100vw;}    
+.breadcumb-wrapper .pull-right{width: 100%; margin-top:10px; }
+header.fixed .logo, header.fixed .navigationTop {margin-top: 0;}    
+.leftSideBar {display:block; width:100%; padding: 0  15px; }
+.rightContent {display:block; width:100%; padding:15px; box-sizing:border-box;  -webkit-box-sizing:border-box;}
+.leftIndend ul {display: block;padding: 0; margin:0px;}
+.bigBtn {padding: 13px;}
+
+.mobMenu {display: block;}
+.navigation .col-sm-12   ul.topNAv { display:none; position: fixed;z-index: 999;width: 100%;top: -100%;left: 0px; margin-top:60px; -ms-transition: all  1000ms ease; -webkit-transition: all  1000ms ease;  -moz-transition: all 1000ms  ease;  -o-transition: all 1000ms  ease;  transition: all 1000ms  ease; overflow:auto ; height:auto !important; bottom:0px ; }
+.navigation .col-sm-12   ul.topNAv > li {display: block; text-align:center; margin:0px; }
+.navigation .col-sm-12   ul.topNAv > li >  a{ display:block;}
+.dropDown {padding-bottom: 0px;}
+.overLayMunu{ display:block; overflow:auto} 
+.ourFeatures { overflow:hidden;}
+.mobile {right:10px; width:300px;}
+.bannerText .col-sm-6{width:50%;}
+.videoImg{max-width:100%;}
+.formOuter{padding:00px; }
+.headerInner{min-height:280px; background-attachment:scroll; background-size:auto 100%; }
+.headerInner {min-height: 220px;}
+.headerInner .bannerText {margin-top: 100px;}
+
+.navigationTop {float: right;padding-right: 50px;}
+.logo {margin-top: 5px;}
+.navBottom {display:none;}
+.navigation {padding: 15px 0 8px 0px;}
+.serviceBoxOuter .col-sm-4 {width: 50%;float: left;}
+.serviceBoxOuter .col-sm-4:nth-child(3n) .serviceBox {border-right: solid 1px #ddd; border-bottom: solid 1px #ddd !important;}
+.serviceBoxOuter .col-sm-4:nth-child(2n) .serviceBox {border-right: solid 0px #ddd; border-bottom: solid 1px #ddd !important}
+.serviceBoxOuter .col-sm-4:nth-child(n+5) .serviceBox {border-bottom: 0px !important;}
+.portfolioOuter .col-sm-5,  .portfolioOuter .col-sm-7{width:50%; float:left;}
+.featureOuter .col-sm-4 {padding: 20px 30px;border-bottom: solid 1px #ddd;}
+.freeConsultion{text-align:center;}
+.calloutBtn {float:none; margin-top:10px;}
+.haevQuestion{text-align:left;}
+footer .col-sm-3{margin-bottom:20px;}
+.navigation .col-sm-12 ul.topNAv > li > a {padding: 10px; }
+.dropDown > ul {position: static; width:auto; padding:10px; margin: 0 20px; max-height:250px; overflow:auto;}
+.dropDown > ul:after{display:none;}
+.dropDown > ul:before{display:none;}
+.dropDown > ul .subMenuBox{width:100%; float:none;}
+.staticBanner {padding: 100px 0 30px 0;}
+.staticBanner h1.pageTitle {font-size: 26px;}
+.staticBanner .pageDes {font-size: 15px;}
+.aboutConnect h3 {font-size: 23px;}
+.btmConnect {font-size: 18px;line-height: 30px;}
+.applicationSercice .col-sm-2 img{display:inline-block; margin:20px 0;}
+.applicationSercice {text-align:center;}
+.sortingOuter li a {padding: 7px 10px;}
+.sortingOuter {margin-bottom:0px;}
+.gallery .col-sm-6.col-md-4 {width:50%; float:left;}
+
+.blogOuter .leftSideBar {width: auto; margin-top: 40px; display:block;padding: 0 15px ;border-right: solid 0px #c3c3c2;border-left: solid 0px #c3c3c2;}
+.blogOuter .rightContent {padding: 0px 15px !important; display:block; margin:auto;}
+
+header .logo {margin-top: 0;}
+header .navigationTop, header.fixed .navigationTop {margin-top:-3px;}
+.callout h2 { margin-bottom: 20px;}
+.callout{text-align: center;}
+.callout .button {float: none;}
+
+.button.medium {padding: 8px 20px;font-size: 15px;}
+.testimonialsSlider .item p {padding: 10px 10px 67px 10px;margin: 20px 20px 0 20px;}
+.logoWhite{display: block;}
+.pageTitle.small {font-size: 26px !important;}
+.contactForm{margin:40px 0; }
+.followBox a img{height: 14px;}
+.followBox {height: 40px;}
+.portfolioDetail .contactFollow{    margin: 30px 0;}
+.portfolioSlider { padding: 0 15px;}
+.blogOuter .sidebar {padding: 15px;     display: block;}
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 640px) {
+.captionText h2 {font-size: 20px; padding: 0 15px;}
+.captionText p {font-size: 13px;margin-bottom: 12px;}
+.captionText .orangeBtn {padding: 3px 8px; font-size: 12px;}
+.captionText {height: 210px;}
+.SliderOuter .owl-dots {bottom: -3px;}
+.serviceBoxOuter .col-sm-4 {width: 100%;float: none;}
+.serviceBoxOuter .col-sm-4 .serviceBox, .serviceBoxOuter .col-sm-4:nth-child(n+4) .serviceBox {border-right: solid 0px #ddd; border-bottom: solid 1px #ddd !important;}
+.serviceBoxOuter .col-sm-4:last-child .serviceBox {border-bottom: 0px !important;}
+.portfolioOuter .col-sm-5, .portfolioOuter .col-sm-7 {width: 100%;float: left;}
+.copyRight .designedBy, .copy {float: none !important; text-align:left !important;}
+.workSlider{max-width:100%;}
+.textBanner{width:100%; margin:0px 0px 20px 0;}
+.sortingOuter li a {font-size:14px;}
+.imgOuter .overLayPortfolio{padding:20px;}
+.gallery .col-sm-6.col-md-4 {width:100%; float:none; }
+
+.blogOuter .rightContent {padding: 0px 0 !important;}
+.postShare .followBox a img {height: 14px;}
+.postShare .followBox {height: 40px;}
+.post-meta-content-inner span{width: 100%; margin-left: 0px !important;}
+.commentThread .children {padding-left: 20px;}
+.commentRow { padding: 10px}
+.commentRow .commentData {padding-left: 70px;}
+.blogOuter .leftSideBar { padding: 0;}
+.portfolioDetail .followBox img {height: 14px;}
+
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
